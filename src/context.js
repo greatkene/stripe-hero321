@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, { useState, useContext } from 'react'
 import { FaUniregistry } from 'react-icons/fa';
 import sublinks from './data'
@@ -5,7 +6,7 @@ import sublinks from './data'
 const AppContext = React.createContext();
 
 export const AppProvider = ({children}) => {
-    const [isSidebarOpen, setIsSidebarOpen] = useState(true)
+    const [isSidebarOpen, setIsSidebarOpen] = useState(false)
     const [isSubmenuOpen, setIsSubmenuOpen] = useState(true)
     
 
